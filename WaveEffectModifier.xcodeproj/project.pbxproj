@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C2BA39D2C6416B8003D3939 /* WaveEffectModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2BA39C2C6416B8003D3939 /* WaveEffectModifier.swift */; };
+		5C2BA39F2C641E23003D3939 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2BA39E2C641E23003D3939 /* Extension+View.swift */; };
+		5C2BA3A12C642016003D3939 /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2BA3A02C642016003D3939 /* WaveShape.swift */; };
 		5C5289022C5CDA9D004A94BE /* WaveEffectModifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5289012C5CDA9D004A94BE /* WaveEffectModifierApp.swift */; };
 		5C5289042C5CDA9D004A94BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5289032C5CDA9D004A94BE /* ContentView.swift */; };
 		5C5289062C5CDA9F004A94BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5289052C5CDA9F004A94BE /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C2BA39C2C6416B8003D3939 /* WaveEffectModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveEffectModifier.swift; sourceTree = "<group>"; };
+		5C2BA39E2C641E23003D3939 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		5C2BA3A02C642016003D3939 /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
 		5C5288FE2C5CDA9D004A94BE /* WaveEffectModifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveEffectModifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5289012C5CDA9D004A94BE /* WaveEffectModifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveEffectModifierApp.swift; sourceTree = "<group>"; };
 		5C5289032C5CDA9D004A94BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +57,11 @@
 		5C5289002C5CDA9D004A94BE /* WaveEffectModifier */ = {
 			isa = PBXGroup;
 			children = (
-				5C5289012C5CDA9D004A94BE /* WaveEffectModifierApp.swift */,
 				5C5289032C5CDA9D004A94BE /* ContentView.swift */,
+				5C5289012C5CDA9D004A94BE /* WaveEffectModifierApp.swift */,
+				5C2BA39C2C6416B8003D3939 /* WaveEffectModifier.swift */,
+				5C2BA3A02C642016003D3939 /* WaveShape.swift */,
+				5C2BA39E2C641E23003D3939 /* Extension+View.swift */,
 				5C5289052C5CDA9F004A94BE /* Assets.xcassets */,
 				5C5289072C5CDA9F004A94BE /* Preview Content */,
 			);
@@ -111,6 +120,8 @@
 				Base,
 			);
 			mainGroup = 5C5288F52C5CDA9D004A94BE;
+			packageReferences = (
+			);
 			productRefGroup = 5C5288FF2C5CDA9D004A94BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C5289042C5CDA9D004A94BE /* ContentView.swift in Sources */,
+				5C2BA3A12C642016003D3939 /* WaveShape.swift in Sources */,
 				5C5289022C5CDA9D004A94BE /* WaveEffectModifierApp.swift in Sources */,
+				5C2BA39F2C641E23003D3939 /* Extension+View.swift in Sources */,
+				5C2BA39D2C6416B8003D3939 /* WaveEffectModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
